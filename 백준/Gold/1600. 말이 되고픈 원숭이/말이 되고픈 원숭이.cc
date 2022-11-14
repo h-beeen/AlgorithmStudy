@@ -30,7 +30,10 @@ int main(void) {
 	while (!Q.empty())
 	{
  
-    	tie(q_k, q_x, q_y) = Q.front();
+    	q_k = get<0>(Q.front());					// Q의 현 동작 수 get 후 q_k에 저장
+		q_x = get<1>(Q.front());					// Q의 현 x좌표 q_x에 저장
+		q_y = get<2>(Q.front());					// Q의 현 y좌표 q_y에 저장
+
     	Q.pop();
     	if (q_k < k)
 		{
@@ -54,24 +57,24 @@ int main(void) {
       		}
     	}
 
-    for (int i = 0; i < 4; i++)
-	{
-    	temp_x = q_x + monkey_x[i];
-		temp_y = q_y + monkey_y[i];
+    	for (int i = 0; i < 4; i++)
+		{
+    		temp_x = q_x + monkey_x[i];
+			temp_y = q_y + monkey_y[i];
 
-    	if(temp_x < 0 || temp_y < 0 || x <= temp_x || y <= temp_y)
-			continue;
+    		if(temp_x < 0 || temp_y < 0 || x <= temp_x || y <= temp_y)
+				continue;
 
-    	if(board[temp_x][temp_y])
-			continue;
+    		if(board[temp_x][temp_y])
+				continue;
 
-    	if(vis[q_k][temp_x][temp_y])
-			continue;
+    		if(vis[q_k][temp_x][temp_y])
+				continue;
 
-      vis[q_k][temp_x][temp_y] = vis[q_k][q_x][q_y] + 1;
-      Q.push(make_tuple(q_k, temp_x, temp_y));
-    }
-  }
+    		vis[q_k][temp_x][temp_y] = vis[q_k][q_x][q_y] + 1;
+    		Q.push(make_tuple(q_k, temp_x, temp_y));
+    	}
+  	}
 	int ans = 2147483647;
 
 	for (int i = 0; i < k + 1; i++)
