@@ -27,8 +27,6 @@ int main()
         empty_flag = false;
         deque <string> arr;
         flag = false;
-        while (!arr.empty())    // 필요여부 검토
-            arr.pop_back();     // 필요여부 검토
 
         cin >> func >> num_length >> num;   // input
 
@@ -86,7 +84,7 @@ int main()
                 arr.pop_back();
             }
         }
-            if(!flag)
-                cout << "]\n";
+        if(!flag)
+            cout << "]\n";
     }
 }
