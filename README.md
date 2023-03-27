@@ -1,11 +1,11 @@
 ## 📝 Solved Algorithm Problems by Backjoon Online Judge
 	- This repo is automatically managed using python & Github Action.
-	- This repo contains solved algorithm files written from 98 c++ sources.
+	- This repo contains solved algorithm files written from 99 c++ sources.
 
 
 	- These contents are automatically pushed by the Backjun Auto Hub.
 	- README.md is automatically pushed by the update.py file, which is automated by Github Action.
-| Num | 🟤&nbsp;Bronze&nbsp;(Solved : 18) | ⚪&nbsp;Silver&nbsp;(Solved : 53) | 🟡&nbsp;Gold&nbsp;(Solved : 27) |
+| Num | 🟤&nbsp;Bronze&nbsp;(Solved : 18) | ⚪&nbsp;Silver&nbsp;(Solved : 53) | 🟡&nbsp;Gold&nbsp;(Solved : 28) |
 | :-: | ------------- | ------------ | ---------- |
 | 01 | [1001. A－B](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/A%EF%BC%8DB.cc) | [1003. 피보나치 함수](./%EB%B0%B1%EC%A4%80/Silver/1003.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98.cc) | [10026. 적록색약](./%EB%B0%B1%EC%A4%80/Gold/10026.%E2%80%85%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD/%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD.cc) |
 | 02 | [10250. ACM 호텔](./%EB%B0%B1%EC%A4%80/Bronze/10250.%E2%80%85ACM%E2%80%85%ED%98%B8%ED%85%94/ACM%E2%80%85%ED%98%B8%ED%85%94.cc) | [1012. 유기농 배추](./%EB%B0%B1%EC%A4%80/Silver/1012.%E2%80%85%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94/%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94.cc) | [10986. 나머지 합](./%EB%B0%B1%EC%A4%80/Gold/10986.%E2%80%85%EB%82%98%EB%A8%B8%EC%A7%80%E2%80%85%ED%95%A9/%EB%82%98%EB%A8%B8%EC%A7%80%E2%80%85%ED%95%A9.cc) |
@@ -31,10 +31,10 @@
 | 22 | []() | [1213. 팰린드롬 만들기](./%EB%B0%B1%EC%A4%80/Silver/1213.%E2%80%85%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.cc) | [2473. 세 용액](./%EB%B0%B1%EC%A4%80/Gold/2473.%E2%80%85%EC%84%B8%E2%80%85%EC%9A%A9%EC%95%A1/%EC%84%B8%E2%80%85%EC%9A%A9%EC%95%A1.cc) |
 | 23 | []() | [1427. 소트인사이드](./%EB%B0%B1%EC%A4%80/Silver/1427.%E2%80%85%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C/%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C.cc) | [2493. 탑](./%EB%B0%B1%EC%A4%80/Gold/2493.%E2%80%85%ED%83%91/%ED%83%91.cc) |
 | 24 | []() | [1431. 시리얼 번호](./%EB%B0%B1%EC%A4%80/Silver/1431.%E2%80%85%EC%8B%9C%EB%A6%AC%EC%96%BC%E2%80%85%EB%B2%88%ED%98%B8/%EC%8B%9C%EB%A6%AC%EC%96%BC%E2%80%85%EB%B2%88%ED%98%B8.cc) | [2589. 보물섬](./%EB%B0%B1%EC%A4%80/Gold/2589.%E2%80%85%EB%B3%B4%EB%AC%BC%EC%84%AC/%EB%B3%B4%EB%AC%BC%EC%84%AC.cc) |
-| 25 | []() | [1439. 뒤집기](./%EB%B0%B1%EC%A4%80/Silver/1439.%E2%80%85%EB%92%A4%EC%A7%91%EA%B8%B0/%EB%92%A4%EC%A7%91%EA%B8%B0.cc) | [4179. 불！](./%EB%B0%B1%EC%A4%80/Gold/4179.%E2%80%85%EB%B6%88%EF%BC%81/%EB%B6%88%EF%BC%81.cc) |
-| 26 | []() | [1463. 1로 만들기](./%EB%B0%B1%EC%A4%80/Silver/1463.%E2%80%851%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/1%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.cc) | [5430. AC](./%EB%B0%B1%EC%A4%80/Gold/5430.%E2%80%85AC/AC.cc) |
-| 27 | []() | [1475. 방 번호](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8.cc) | [7576. 토마토](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/%ED%86%A0%EB%A7%88%ED%86%A0.cc) |
-| 28 | []() | [15649. N과 M （1）](./%EB%B0%B1%EC%A4%80/Silver/15649.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%881%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%881%EF%BC%89.cc) | []() |
+| 25 | []() | [1439. 뒤집기](./%EB%B0%B1%EC%A4%80/Silver/1439.%E2%80%85%EB%92%A4%EC%A7%91%EA%B8%B0/%EB%92%A4%EC%A7%91%EA%B8%B0.cc) | [2638. 치즈](./%EB%B0%B1%EC%A4%80/Gold/2638.%E2%80%85%EC%B9%98%EC%A6%88/%EC%B9%98%EC%A6%88.cc) |
+| 26 | []() | [1463. 1로 만들기](./%EB%B0%B1%EC%A4%80/Silver/1463.%E2%80%851%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/1%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.cc) | [4179. 불！](./%EB%B0%B1%EC%A4%80/Gold/4179.%E2%80%85%EB%B6%88%EF%BC%81/%EB%B6%88%EF%BC%81.cc) |
+| 27 | []() | [1475. 방 번호](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8.cc) | [5430. AC](./%EB%B0%B1%EC%A4%80/Gold/5430.%E2%80%85AC/AC.cc) |
+| 28 | []() | [15649. N과 M （1）](./%EB%B0%B1%EC%A4%80/Silver/15649.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%881%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%881%EF%BC%89.cc) | [7576. 토마토](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/%ED%86%A0%EB%A7%88%ED%86%A0.cc) |
 | 29 | []() | [15650. N과 M （2）](./%EB%B0%B1%EC%A4%80/Silver/15650.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%882%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%882%EF%BC%89.cc) | []() |
 | 30 | []() | [15651. N과 M （3）](./%EB%B0%B1%EC%A4%80/Silver/15651.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%883%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%883%EF%BC%89.cc) | []() |
 | 31 | []() | [15652. N과 M （4）](./%EB%B0%B1%EC%A4%80/Silver/15652.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%884%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%884%EF%BC%89.cc) | []() |
