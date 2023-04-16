@@ -1,7 +1,12 @@
 import os
 from urllib import parse
 
+HEADER = """#
+"""
+
 def main():
+    content = ""
+    content += HEADER
 
     categories = {
         'Bronze': {'nums': [], 'links': []},
@@ -34,7 +39,7 @@ def main():
 
         for file in files:
             file_ext = os.path.splitext(file)[1]
-            if file_ext == ".cc":
+            if file_ext in [".cc", ".c", ".java"]:
                 problem_num = category.split('_')[-1]
                 link = parse.quote(os.path.join(root, file))
                 categories[directory]['nums'].append(problem_num)
@@ -47,13 +52,11 @@ def main():
     sum_count = sum({bronze_count, silver_count, gold_count})
     max_count = max(bronze_count, silver_count, gold_count)
 
-    content = "## 📝 Solved Algorithm Problems by Backjoon Online Judge\n"
+    content += "## 📝 Solved Algorithm Problems by Backjoon Online Judge\n"
     content += "\t- This repo is automatically managed using python & Github Action.\n"
-    content += "\t- This repo contains solved algorithm files written from {} c++ sources.\n\n\n".format(sum_count)
-    content += "\t- These contents are automatically pushed by the Backjun Auto Hub.\n"
-    content += "\t- README.md is automatically pushed by the update.py file, which is automated by Github Action.\n"
+    content += "\t- This repo contains solved algorithm files written from {} sources.\n\n".format(sum_count)
     content += "| Num | 🟤&nbsp;Bronze&nbsp;(Solved : {}) | ⚪&nbsp;Silver&nbsp;(Solved : {}) | 🟡&nbsp;Gold&nbsp;(Solved : {}) |\n".format(bronze_count, silver_count, gold_count)
-    content += "| :-: | ------------- | ------------ | ---------- |\n"
+    content += "| :-: | :-------------: | :------------: | :----------: |\n"
 
     for i in range(max_count):
         bronze_num = categories['Bronze']['nums'][i] if i < bronze_count else ''
